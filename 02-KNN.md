@@ -26,3 +26,9 @@ $$
     1. Normalization: to compress features with different scales into the same range (usually between 0 and 1)
 
     $x' = \frac{x - x_{min}}{max - min}$
+
+    2. Standardization 
+
+    $x' = \frac{x−μ}{σ}​$
+
+    
