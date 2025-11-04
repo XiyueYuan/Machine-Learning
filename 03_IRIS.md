@@ -1,6 +1,6 @@
 ### Iris Dataset
 
-##### Steps: 
+### Steps: 
 1. Import packages
 2. Load data + EDA
 3. Data preprocessing
@@ -146,7 +146,7 @@ def model():
     print(f'the model accuracy score is {score}')
 ```
 ---
-Below We will use Cross Validation and Grid Search to determine K
+##### Below We will use Cross Validation and Grid Search to determine K
 
 ```python
 from sklearn.model_selection import train_test_split, GridSearchCV

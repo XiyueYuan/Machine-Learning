@@ -14,7 +14,7 @@ $$
 d = \sum_{k=1}^{n}|x_{test} - x_{train}|
 $$
 
-2. *algorithm*
+2. *Algorithm*
 - classification 
     - discrete
     - by vote
