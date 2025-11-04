@@ -31,4 +31,18 @@ $$
 
     $x' = \frac{x−μ}{σ}​$
 
-    
+4. Cross Validation and Grid Search 
+
+- Used to determine hyperparameter 
+- Cross Validation(cv)
+    - k-fold cross validation -> mean model accuracy score 
+    - used for model eval and hyperparameter tuning 
+- Grid Search 
+    - help find optimized hyperparameter (K in KNN)
+    - Provide a list of parameters → run cross-validation for each parameter → compare the average validation scores → select the best-performing parameter (e.g., the optimal k) → obtain the final model!
+`sklearn.model_selection.GridSearchCV(estimator, param_grid = None, cv = None)`
+- estimator: estimator object
+- cv: k folds
+- param_grid: estimator parameter 
+
+> Essentially, it just means running the model multiple times.
