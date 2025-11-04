@@ -46,3 +46,6 @@ $$
 - param_grid: estimator parameter 
 
 > Essentially, it just means running the model multiple times.
+
+> Machine Learning Pipeline: The workflow is quite intuitive:
+start by loading and exploring the dataset, perform basic preprocessing and visualization, split the data into training and testing sets, normalize the features, apply cross-validation to determine the optimal hyperparameter (such as k), train the model, and finally evaluate its performance.

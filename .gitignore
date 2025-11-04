@@ -1,2 +1,4 @@
 assets/data/archive/mnist_test.csv
 assets/data/archive/mnist_train.csv
+Model/MNIST_model.pkl
+Model/*.pkl
