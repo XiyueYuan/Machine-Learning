@@ -72,7 +72,7 @@ Model Eval (Regression, MAE, MSE, ..)
     - performs very well on the training set but poorly on the test set
 - Criteria: __generalization ability__
 7. Model selection 
+
 <p align="center">
-<img src= 'assets/roadmap.png'
-width=""/>
+<img src= '../assets/roadmap.png', width=""/>
 </p>
