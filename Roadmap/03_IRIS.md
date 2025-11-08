@@ -107,7 +107,7 @@ def visualization():
     plt.show()
 ```
 <p align="center">
-<img src= 'assets/pairplot.png'
+<img src= '../assets/pairplot.png'
 width=""/>
 </p>
 

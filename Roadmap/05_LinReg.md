@@ -47,3 +47,27 @@ $$
 - minimize the loss function
 
 $L(k, b)$
+1. Error = Predicted Value - Real Value
+2. Loss Function: A function that measures the difference between the model’s prediction and the true value for each sample.
+> The smaller the loss, the better the model fits the data.
+- Ordinary Least Square 
+In a simple linear regression: 
+given a list of `x_train` and `y_train`, to get the optimal w for linear regression `y = wx + b`, we need to assume the intercept b
+```python
+height = [[160], [166], [172], [174], [180]]
+weight = [56.3, 60.6, 65.1, 68.5, 75]
+x_test = [[176]]
+```
+To get the best w, the sum of all squared errors should be minimum. 
+- Let's assume b, the intercept is -100
+$y = wx - 100$
+For each value, the predicted value `height * w - 100`, the real value is `weight`
+
+- Then, 
+$MSE$
+$ = 1/n * ((160w - 100 - 56.3) ^2 + (166w - 100 - 60.6) ^ 2 + ...)$
+$ = 1/n * ( 256000w ^ 2 - 281671.6w + 136496.32)$
+
+ - In order to get the minimum error, we differentiate it.
+==> $2 * w * 256000 - 281671.6 = 0$
+We get w = 0.55
