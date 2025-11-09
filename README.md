@@ -1,0 +1,1 @@
+In this repository, I’ve documented my entire journey of exploring machine learning and presented it in a relatively clear structure. The Roadmap folder contains my study notes from the self-learning process, while the WorkSpace folder provides more detailed records — including my code and mathematical derivations (rendered conveniently in Jupyter Notebook for LaTeX formulas).
