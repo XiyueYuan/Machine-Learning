@@ -1,3 +1,7 @@
-In this repository, I’ve documented my entire journey of exploring machine learning, and tried to present it in a clear and intuitive structure. The Roadmap folder holds my learning notes — the trail of how I taught myself step by step — while the WorkSpace folder goes deeper, containing my actual code and detailed mathematical derivations (I use Jupyter Notebook since it’s perfect for rendering LaTeX formulas).
+## Machine Learning!
+In this repository, I’ve documented my entire journey of exploring machine learning, and tried to present it in a clear and intuitive structure. 
+- The [RoadMap](Roadmap/) folder holds my learning notes — the trail of how I taught myself step by step — while the [WorkSpace](WorkSpace/) folder goes deeper, containing my actual code and detailed mathematical derivations (I use Jupyter Notebook since it’s perfect for rendering LaTeX formulas).
 
-In the README, I collect some of the most fascinating and elegant formulas — those beautiful algorithms that are both mathematically profound and intellectually inspiring. They’re what make me fall in love with the blend of computer science and mathematics.
+- Mathematical formulas are best viewed in the Jupyter notebooks under the WorkSpace folder [Algorithms File](WorkSpace/00_Algorithms.ipynb), since GitHub does not fully support LaTeX rendering in Markdown.
+
+
