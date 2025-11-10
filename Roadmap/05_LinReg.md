@@ -71,3 +71,4 @@ $ = 1/n * ( 256000w ^ 2 - 281671.6w + 136496.32)$
  - In order to get the minimum error, we differentiate it.
 ==> $2 * w * 256000 - 281671.6 = 0$
 We get w = 0.55
+
