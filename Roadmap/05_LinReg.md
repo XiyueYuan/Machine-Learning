@@ -72,3 +72,10 @@ $ = 1/n * ( 256000w ^ 2 - 281671.6w + 136496.32)$
 ==> $2 * w * 256000 - 281671.6 = 0$
 We get w = 0.55
 
+3. Overfitting and Underfitting
+
+<p align="center">
+<img src= '../assets/under-overfitting.png'
+width=""/>
+</p>
+
