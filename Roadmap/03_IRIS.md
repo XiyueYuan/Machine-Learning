@@ -171,7 +171,7 @@ x_test = transfer.transform(x_test)
 estimator = KNeighborsClassifier()
 
 # Create a list of param_dict for grid search 
-param_dict = {'n_neighbors': [i for i in range(1, 11)]} 
+param_dict = {'knn_n_neighbors': [i for i in range(1, 11)]} 
 
 # Create GridSearchCV object
 # Every grid search will be calculated four folds, so 40 times
