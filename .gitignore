@@ -2,3 +2,5 @@ assets/data/archive/mnist_test.csv
 assets/data/archive/mnist_train.csv
 Model/MNIST_model.pkl
 Model/*.pkl
+assets/data/*
+assets/data/WA_Fn-UseC_-Telco-Customer-Churn.csv.xls
