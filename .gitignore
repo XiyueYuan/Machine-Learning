@@ -4,3 +4,4 @@ Machine_Learning/Model/MNIST_model.pkl
 Machine_Learning/Model/*.pkl
 Machine_Learning/assets/data/*
 Machine_Learning/assets/data/WA_Fn-UseC_-Telco-Customer-Churn.csv.xls
+Deep_Learning/assets/*
